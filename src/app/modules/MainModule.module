@@ -1,0 +1,26 @@
+{
+  "props": [],
+  "components": {
+    "systemTray": {
+      "type": "script\\SystemTrayScript",
+      "x": 112,
+      "y": 128,
+      "props": {
+        "visible": "1",
+        "tooltip": "Панель Encore",
+        "icon": ".data/img/eraser.png",
+        "manualExit": true
+      }
+    },
+    "scoreboard": {
+      "type": "script\\TimerScript",
+      "x": 32,
+      "y": 32,
+      "props": {
+        "interval": 250,
+        "repeatable": true,
+        "autoStart": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160" prefWidth="480" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#000000" focusTraversable="false" height="160" id="panel" layoutX="0" layoutY="0" strokeType="INSIDE" strokeWidth="0" styleClass="" width="480"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#1b4f72" focusTraversable="true" id="lineSearch" layoutX="120" layoutY="50" prefColumnCount="12" prefHeight="30" prefWidth="240" promptText="" text="" unFocusColor="#ffffff">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+        <String fx:value="line"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-lineSearch" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#154360" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#1a5276" id="search" layoutX="220" layoutY="90" prefHeight="25" prefWidth="140" styleClass="x-flat-button " text="Поиск" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-search" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="30" id="google" layoutX="5" layoutY="5" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="Calibri" size="10"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-google" image=".data/img/google.png" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="messaSearch" layoutX="40" layoutY="5" prefHeight="30" prefWidth="85" styleClass="label " text="Поиск Encore" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-messaSearch" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#641e16" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#641e16" id="cancel" layoutX="120" layoutY="90" prefHeight="25" prefWidth="95" styleClass="x-flat-button " text="Отмена" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-cancel" visible="1"/>
+  </children>
+</AnchorPane>
